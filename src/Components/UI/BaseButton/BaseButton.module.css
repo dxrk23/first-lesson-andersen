@@ -1,0 +1,26 @@
+.baseButton{
+    appearance: none;
+
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+
+    font-size: 1rem;
+
+    background: whitesmoke;
+}
+
+.baseButton:hover{
+    cursor: pointer;
+    background: lightgrey;
+}
+
+.baseButton:active{
+    background: #e3e3e3
+}
+
+.baseButton:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}

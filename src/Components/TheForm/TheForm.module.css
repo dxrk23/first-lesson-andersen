@@ -1,0 +1,37 @@
+.formMain {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+
+}
+
+.header {
+    background-color: #f3f3f3;
+    padding: 1rem;
+    text-align: center;
+
+    font-size: 1.2rem;
+
+}
+
+.content {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.buttonsContainer {
+    width: inherit;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    margin-bottom: 20px;
+}
